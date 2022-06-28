@@ -24,7 +24,7 @@ body
 .top-cloud{
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 100px;
 }
 span{
     text-decoration: underline;
@@ -40,6 +40,19 @@ span{
     padding: 100px 0 100px 0;
     
 }
+.avatar{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+.header{
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    margin: 0;
+}
 .intro{
     margin: auto;
     width: 30%;
@@ -47,6 +60,7 @@ span{
 a{
     text-decoration: none;
     color: #66BFBF;
+    margin: 0;
 }
 a:hover{
     color: #666666;
@@ -60,14 +74,21 @@ color: #11999E;
 }
 h1{
     font-family: Montserrat,sans-serif;
-    color:  #66BFBF;
+    color:  #069A8E;
 
+}
+.fix{
+    background-color:#e0ebe8; 
+    position: fixed; 
+    width: 100%;
+    height: 100px;
+    
 }
 h2{
     font-family:Montserrat,sans-serif;
     font-size: 2rem;
     margin-top: 0;
-    color:  #66BFBF;
+    color:  #069A8E;
     line-height: 2;
     font-weight: normal;
     padding-bottom: 20px;
@@ -77,6 +98,8 @@ h3{
     font-family: Montserrat,sans-serif;
     font-size: 1.5rem;
     color: #11999E;
+    margin: 0;
+
     
 }
 p{
