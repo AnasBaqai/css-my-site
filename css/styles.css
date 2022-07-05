@@ -115,6 +115,7 @@ h3{
 }
 p{
     line-height: 2;
+    
 }
 
 .skill-row{
@@ -130,6 +131,7 @@ p{
     margin-right: 1.875rem;
     height: 40%;
     margin-bottom: 1.875rem;
+    
     
     
 }
@@ -200,7 +202,7 @@ hr{
   .flock{
     height: 6.125rem;
     width: 6.125rem;
-    position: static;
+    position: absolute;
     left: 6.125rem;
     top: 25rem;
   }
@@ -208,13 +210,16 @@ hr{
   {
     height: 6.125rem;
     width: 6.125rem;
-    position: static;
+    position: absolute;
+    left: 20rem;
     
   }
 .birdr{
     height: 6.125rem;
     width: 6.125rem;
-    position: static;
+    position: absolute;
+    right: 20rem;
+    top: 40rem;
 }
 .container-fluid{
     padding-right: 10%;
@@ -232,18 +237,42 @@ hr{
     }
     .birdr{
         position: static;
-        margin:5% 0 5% 0 ;
+        margin:10% 0 10% 0 ;
 
     }
     
     .flock{
         position:static;
-        margin:5% 0 5% 0 ;
+        margin:10% 0 10% 0 ;
     }
      
     .bird{
         position:static;
-        margin:5% 0 5% 0 ;
+        
     }
+    .vid-png{
 
+        
+        width: 100%;
+    }
+    .ball-png{
+        
+        width: 100%;
+    }
+    p{
+        line-height:1.5;
+    }
+    .boy{
+        width: 5rem;
+        height: 5rem;
+    }
+    .avatar{
+        width: 3rem;
+        height: 3rem;
+    }
+    .fix{
+        height: 5rem;
+
+    }
+  
 }
